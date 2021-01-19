@@ -22,13 +22,13 @@ h1{
 }
 
 /* regole generali blocchi */
-main{
+.main-body{
   padding-bottom: 20px;
   background-color: lightgrey;
   padding-top: 40px;
 }
 
-nav, section{
+nav,main{
   background-color: white;
   width: 70%;
   margin: auto;
