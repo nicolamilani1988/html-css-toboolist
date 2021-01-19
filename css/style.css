@@ -1,0 +1,158 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  margin: auto;
+  font-family: arial;
+  color:#484C54;
+}
+
+/* regole titolo */
+.title{
+  padding: 10px 20px 10px;
+}
+
+header img{
+  vertical-align: middle;
+}
+
+h1{
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+}
+
+/* regole generali blocchi */
+main{
+  padding-bottom: 20px;
+  background-color: lightgrey;
+  padding-top: 40px;
+}
+
+nav, section{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding-left: 40px;
+}
+
+/* regole blocco input */
+nav{
+  height: 50px;
+  padding-top:15px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid lightgrey;
+}
+
+input[type=button] {
+  background-color: #47ADF1;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+  font-family:arial;
+  color:white;
+  font-weight: bold;
+  border: 0px solid #47ADF1;
+}
+
+#button-section {
+  background-color: #FFFF;
+  color: lightgrey;
+  border: 1px solid grey;
+}
+
+/* regole blocco list */
+section{
+  padding-top: 30px;
+}
+
+.container{
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+.arrow{
+  font-size: 70%;
+  margin-right: 5px;
+}
+
+.circle{
+  height: 20px;
+  border-radius: 50%;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 60%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.circle.check{
+  color: #9DDACD;
+  border: 1.5px solid #9DDACD;
+}
+
+.circle.cross{
+  color: #ED706A;
+  border: 1.5px solid #ED706A;
+}
+
+.label{
+  line-height: 30px;
+  border-radius: 20px 20px 20px 20px;
+  padding:7px;
+  color:white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.label.editorial{
+  background-color: #45ABEA;
+}
+
+.label.editorial::after{
+  content:"Editorial";
+}
+
+.label.goals{
+  background-color: #9C72E4;
+}
+
+.label.goals::after{
+    content:"Q1 Goals";
+}
+
+.label.recruiting{
+  background-color: #64C0A9;
+}
+
+.label.recruiting::after{
+  content:"Recruiting";
+}
+
+.label.mobile{
+  background-color: #F29E33;
+}
+
+.label.mobile:after{
+  content:"Mobile";
+}
+
+.label.website{
+  background-color: #D863A1;
+}
+
+.label.website::after{
+  content:"Website";
+}
+
+.label.sales{
+  background-color: #B0C926;
+}
+
+.label.sales::after{
+  content:"Sales";
+}
+
+section.last{
+  padding-bottom: 30px;
+}
