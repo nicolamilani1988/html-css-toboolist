@@ -6,6 +6,10 @@
   color:#484C54;
 }
 
+.lightblue{
+  background-color: #47ADF1;
+}
+
 /* regole titolo */
 .title{
   padding: 10px 20px 10px;
@@ -44,7 +48,6 @@ nav{
 }
 
 button{
-  background-color: #47ADF1;
   padding: 5px;
   border-radius: 5px 5px 5px 5px;
   font-family:arial;
@@ -67,6 +70,11 @@ button{
 ul{
   list-style-type: none;
   padding-left: 0;
+}
+
+.arrow{
+  font-size: 70%;
+  margin-right: 5px;
 }
 
 .container{
@@ -99,68 +107,40 @@ li.container.cross::before{
   content: '\2717' ;
 }
 
-.arrow{
-  font-size: 70%;
-  margin-right: 5px;
+span.tasks :first-child{
+  line-height: 20px;
+  margin:0;
+  padding: 0;
 }
 
 .label{
-  line-height: 30px;
-  border-radius: 20px 20px 20px 20px;
+  height: 20px;
+  border-radius: 8px 8px 8px 8px;
   padding:7px;
   color:white;
   font-size: 10px;
-  font-weight: bold;
 }
 
-.label.editorial{
-  background-color: #45ABEA;
-}
-
-.label.editorial::after{
-  content:"Editorial";
-}
-
-.label.goals{
+.violet{
   background-color: #9C72E4;
 }
 
-.label.goals::after{
-    content:"Q1 Goals";
-}
-
-.label.recruiting{
+.green{
   background-color: #64C0A9;
 }
 
-.label.recruiting::after{
-  content:"Recruiting";
-}
-
-.label.mobile{
+.orange{
   background-color: #F29E33;
 }
 
-.label.mobile:after{
-  content:"Mobile";
-}
-
-.label.website{
+.pink{
   background-color: #D863A1;
 }
 
-.label.website::after{
-  content:"Website";
-}
-
-.label.sales{
+.senape{
   background-color: #B0C926;
 }
 
-.label.sales::after{
-  content:"Sales";
-}
-
-section.last{
+.section.last{
   padding-bottom: 30px;
 }
