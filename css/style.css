@@ -75,7 +75,6 @@ ul{
 }
 
 li.container::before{
-  content: '\2713' ;
   border: 1.5px solid black;
   font-size: 60%;
   border-radius: 50%;
@@ -88,30 +87,21 @@ li.container::before{
   box-sizing: border-box;
 }
 
+li.container.check::before{
+  border-color: #9DDACD;
+  color: #9DDACD;
+  content: '\2713' ;
+}
+
+li.container.cross::before{
+  border-color: #ED706A;
+  color: #ED706A;
+  content: '\2717' ;
+}
+
 .arrow{
   font-size: 70%;
   margin-right: 5px;
-}
-
-.circle{
-  height: 20px;
-  border-radius: 50%;
-  width: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-size: 60%;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.circle.check{
-  color: #9DDACD;
-  border: 1.5px solid #9DDACD;
-}
-
-.circle.cross{
-  color: #ED706A;
-  border: 1.5px solid #ED706A;
 }
 
 .label{
